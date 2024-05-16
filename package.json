@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preview": "wasm-pack build --release -t nodejs --out-dir C:\\商城项目\\uniwxmallapp\\scripts\\plugins\\babel\\babel-plugin-remove-console-wasm --out-name index",
+    "preview": "wasm-pack build --release -t nodejs --out-dir dist --out-name index",
     "build": "wasm-pack build --release -t nodejs --out-dir dist --out-name index"
   },
   "keywords": [
