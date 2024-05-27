@@ -1,9 +1,9 @@
-# 使用
+## how to use
 ```bash
-npm install babel-plugin-remove-console -D
+npm install babel-plugin-remove-console-wasm -D
 ```
 
 ```js
-const wasm = require('./xxx/index');
+const wasm = require('babel-plugin-remove-console-wasm/index');
 plugin.push(wasm.init(["white list word"]));
 ```
